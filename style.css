@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 120px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.img {
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 60px;
+}
+
+main {
+    justify-content: center;
+}
+
+.con {
+    width: 1700px;
+    height: 900px;
+    background-color: black;
+    margin: 50px auto;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+}
+
+.btn {
+    width: 300px;
+    height: 130px;
+    background-color: rgb(241, 238, 44);
+    font-size: 50px;
+}
+
+.b1 {
+    cursor: auto;
+}
+
+.b2 {
+    cursor: default;
+}
+
+.b3 {
+    cursor: none;
+}
+
+.b4 {
+    cursor: pointer;
+}
+
+.b5 {
+    cursor: text;
+}
+
+.b6 {
+    cursor: context-menu;
+}
+
+.b7 {
+    cursor: help;
+}
+
+.b8 {
+    cursor: progress;
+}
+
+.b9 {
+    cursor: wait;
+}
+
+.b10 {
+    cursor: cell;
+}
+
+.b11 {
+    cursor: crosshair;
+}
+
+.b12 {
+    cursor: vertical-text;
+}
+
+.b13 {
+    cursor: alias;
+}
+
+.b14 {
+    cursor: copy;
+}
+
+.b15 {
+    cursor: move;
+}
+
+.b16 {
+    cursor: no-drop;
+}
+
+.b17 {
+    cursor: not-allowed;
+}
+
+.b18 {
+    cursor: grab;
+}
+
+.b19 {
+    cursor: grabbing;
+}
+
+.b20 {
+    cursor: all-scroll;
+}
+
+.b21 {
+    cursor: col-resize;
+}
+
+.b22 {
+    cursor: row-resize;
+}
+
+.b23 {
+    cursor: zoom-in;
+}
+
+.b24 {
+    cursor: zoom-out;
+}
